@@ -4,7 +4,6 @@ export default function Form(props) {
   const handleUpClick = () => {
     console.log("UpperCase was Clicked" + text);
     let newText = text.toUpperCase();
-    let newEnter = text.toLowerCase();
     setText(newText);
   };
   const handleLowCase = () => {
